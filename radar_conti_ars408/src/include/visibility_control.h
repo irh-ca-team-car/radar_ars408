@@ -40,7 +40,6 @@ extern "C"
   #define RADAR_CONTI_ARS408_LOCAL
 #else
   #define RADAR_CONTI_ARS408_RADAR_CONTI_ARS408 __attribute__ ((visibility("default")))
-  #define RADAR_CONTI_ARS408_RADAR_CONTI_ARS408
   #if __GNUC__ >= 4
     #define RADAR_CONTI_ARS408_PUBLIC __attribute__ ((visibility("default")))
     #define RADAR_CONTI_ARS408_LOCAL  __attribute__ ((visibility("hidden")))

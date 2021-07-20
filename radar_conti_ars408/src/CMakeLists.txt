@@ -142,10 +142,10 @@ install(
 #    DIRECTORY config
 #    DESTINATION share/${PROJECT_NAME})
 
-install(
-  DIRECTORY resources
-  DESTINATION share/${PROJECT_NAME}
-)
+#install(
+#  DIRECTORY resources
+#  DESTINATION share/${PROJECT_NAME}
+#)
 
 # Install launch files.
 install(DIRECTORY

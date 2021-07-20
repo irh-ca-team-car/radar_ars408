@@ -71,7 +71,7 @@ rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn radar_
 rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn radar_conti_ars408::on_shutdown(
   const rclcpp_lifecycle::State& previous_state)
 {
-
+    (void)previous_state;
     RCUTILS_LOG_INFO_NAMED(get_name(), "on shutdown is called.");
     return rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn::SUCCESS;  
 }
@@ -79,7 +79,7 @@ rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn radar_
 rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn radar_conti_ars408::on_error(
     const rclcpp_lifecycle::State& previous_state) 
 {
-
+    (void)previous_state;
     RCUTILS_LOG_INFO_NAMED(get_name(), "on error is called.");
     return rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn::SUCCESS;
 }
