@@ -65,4 +65,4 @@ std_msgs/Float64 obj_arellong_rms
 std_msgs/Float64 obj_arellat_rms
 std_msgs/Float64 obj_orientation_rms
 std_msgs/Float64 obj_probofexist
-std_msgs/String  obj_measstate
+std_msgs/Int32  obj_measstate
